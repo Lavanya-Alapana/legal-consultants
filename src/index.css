@@ -1,0 +1,83 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+
+@keyframes shake-ring {
+  0%, 100% { 
+    transform: translateY(0) rotate(0deg); 
+  }
+  10%, 30%, 50%, 70%, 90% { 
+    transform: translateY(-8px) rotate(-3deg); 
+  }
+  20%, 40%, 60%, 80% { 
+    transform: translateY(-8px) rotate(3deg); 
+  }
+}
+
+.animate-shake-ring {
+  animation: shake-ring 1.5s ease-in-out infinite;
+}
+
+
+@keyframes traffic-blink {
+  0%, 50%, 100% { 
+    opacity: 1;
+    transform: scale(1);
+  }
+  25%, 75% { 
+    opacity: 0.7;
+    transform: scale(0.95);
+  }
+}
+
+@keyframes blink-onoff {
+  0%, 100% { 
+    opacity: 1;
+  }
+  50% { 
+    opacity: 0;
+  }
+}
+
+@keyframes bounce-slow {
+  0%, 100% { 
+    transform: translateY(0);
+  }
+  50% { 
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes scale-in {
+  0% { 
+    transform: scale(0.9);
+    opacity: 0;
+  }
+  100% { 
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.animate-traffic-blink {
+  animation: traffic-blink 2s ease-in-out infinite;
+}
+
+.animate-blink-onoff {
+  animation: blink-onoff 1.5s ease-in-out infinite;
+}
+
+.animate-bounce-slow {
+  animation: bounce-slow 2s ease-in-out infinite;
+}
+
+.animate-scale-in {
+  animation: scale-in 0.3s ease-out;
+}
