@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
@@ -62,16 +63,41 @@ const Header = () => {
 
           {/* Right - Desktop Navigation */}
           <nav className="hidden lg:flex gap-6 xl:gap-10 items-center">
-            {["Home", "About", "Services", "Career", "Contact"].map((item) => (
-              <a
-                key={item}
-                href={`#${item.toLowerCase()}`}
-                className="text-white font-medium text-sm xl:text-base hover:text-yellow-400 transition-colors duration-300 relative group"
-              >
-                {item}
-                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-yellow-400 group-hover:w-full transition-all duration-300" />
-              </a>
-            ))}
+            <Link
+              to="/"
+              className="text-white font-medium text-sm xl:text-base hover:text-yellow-400 transition-colors duration-300 relative group"
+            >
+              Home
+              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-yellow-400 group-hover:w-full transition-all duration-300" />
+            </Link>
+            <Link
+              to="/about"
+              className="text-white font-medium text-sm xl:text-base hover:text-yellow-400 transition-colors duration-300 relative group"
+            >
+              About
+              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-yellow-400 group-hover:w-full transition-all duration-300" />
+            </Link>
+            <a
+              href="#services"
+              className="text-white font-medium text-sm xl:text-base hover:text-yellow-400 transition-colors duration-300 relative group"
+            >
+              Services
+              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-yellow-400 group-hover:w-full transition-all duration-300" />
+            </a>
+            <Link
+              to="/career"
+              className="text-white font-medium text-sm xl:text-base hover:text-yellow-400 transition-colors duration-300 relative group"
+            >
+              Career
+              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-yellow-400 group-hover:w-full transition-all duration-300" />
+            </Link>
+            <Link
+              to="/contact"
+              className="text-white font-medium text-sm xl:text-base hover:text-yellow-400 transition-colors duration-300 relative group"
+            >
+              Contact
+              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-yellow-400 group-hover:w-full transition-all duration-300" />
+            </Link>
           </nav>
 
           {/* Hamburger Menu Button - Mobile */}
@@ -90,16 +116,41 @@ const Header = () => {
         {/* Mobile Menu */}
         <nav className={`lg:hidden overflow-hidden transition-all duration-300 ${isMenuOpen ? 'max-h-96 mt-4' : 'max-h-0'}`}>
           <div className="flex flex-col gap-4 py-4 border-t border-blue-700">
-            {["Home", "About", "Services", "Career", "Contact"].map((item) => (
-              <a
-                key={item}
-                href={`#${item.toLowerCase()}`}
-                onClick={() => setIsMenuOpen(false)}
-                className="text-white font-medium text-base hover:text-blue-400 transition-colors duration-300 py-2"
-              >
-                {item}
-              </a>
-            ))}
+            <Link
+              to="/"
+              onClick={() => setIsMenuOpen(false)}
+              className="text-white font-medium text-base hover:text-blue-400 transition-colors duration-300 py-2"
+            >
+              Home
+            </Link>
+            <Link
+              to="/about"
+              onClick={() => setIsMenuOpen(false)}
+              className="text-white font-medium text-base hover:text-blue-400 transition-colors duration-300 py-2"
+            >
+              About
+            </Link>
+            <a
+              href="#services"
+              onClick={() => setIsMenuOpen(false)}
+              className="text-white font-medium text-base hover:text-blue-400 transition-colors duration-300 py-2"
+            >
+              Services
+            </a>
+            <Link
+              to="/career"
+              onClick={() => setIsMenuOpen(false)}
+              className="text-white font-medium text-base hover:text-blue-400 transition-colors duration-300 py-2"
+            >
+              Career
+            </Link>
+            <Link
+              to="/contact"
+              onClick={() => setIsMenuOpen(false)}
+              className="text-white font-medium text-base hover:text-blue-400 transition-colors duration-300 py-2"
+            >
+              Contact
+            </Link>
           </div>
         </nav>
 
