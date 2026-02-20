@@ -2,10 +2,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
 @import "tailwindcss";
 
+:root {
+  --primary-yellow: #F59E0B;
+  --dark-yellow: #D97706;
+  --light-yellow: #FEF3C7;
+  --yellow-bg: #FFFBEB;
+  --text-dark: #78350F;
+  --text-medium: #92400E;
+}
 
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background-color: var(--yellow-bg);
 }
 
 

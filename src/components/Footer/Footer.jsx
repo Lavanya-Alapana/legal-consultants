@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer className="bg-slate-900 text-white">
+    <footer className="bg-gradient-to-br from-slate-800 via-slate-900 to-slate-800 text-white border-t-4 border-amber-500">
       <div className="w-full px-6 sm:px-8 md:px-12 lg:px-16 xl:px-20 py-12">
         
         {/* Main Footer Content */}
@@ -16,15 +16,15 @@ const Footer = () => {
                 fill="none" 
                 xmlns="http://www.w3.org/2000/svg"
               >
-                <line x1="32" y1="8" x2="32" y2="54" stroke="#FACC15" strokeWidth="2.5" strokeLinecap="round"/>
-                <line x1="22" y1="54" x2="42" y2="54" stroke="#FACC15" strokeWidth="3" strokeLinecap="round"/>
-                <line x1="14" y1="16" x2="50" y2="16" stroke="#FACC15" strokeWidth="2.5" strokeLinecap="round"/>
-                <line x1="18" y1="16" x2="14" y2="28" stroke="#FACC15" strokeWidth="1.8"/>
-                <line x1="18" y1="16" x2="22" y2="28" stroke="#FACC15" strokeWidth="1.8"/>
-                <line x1="46" y1="16" x2="42" y2="28" stroke="#FACC15" strokeWidth="1.8"/>
-                <line x1="46" y1="16" x2="50" y2="28" stroke="#FACC15" strokeWidth="1.8"/>
-                <ellipse cx="18" cy="30" rx="6" ry="2" stroke="#FACC15" strokeWidth="2" fill="none"/>
-                <ellipse cx="46" cy="30" rx="6" ry="2" stroke="#FACC15" strokeWidth="2" fill="none"/>
+                <line x1="32" y1="8" x2="32" y2="54" stroke="#F59E0B" strokeWidth="2.5" strokeLinecap="round"/>
+                <line x1="22" y1="54" x2="42" y2="54" stroke="#F59E0B" strokeWidth="3" strokeLinecap="round"/>
+                <line x1="14" y1="16" x2="50" y2="16" stroke="#F59E0B" strokeWidth="2.5" strokeLinecap="round"/>
+                <line x1="18" y1="16" x2="14" y2="28" stroke="#F59E0B" strokeWidth="1.8"/>
+                <line x1="18" y1="16" x2="22" y2="28" stroke="#F59E0B" strokeWidth="1.8"/>
+                <line x1="46" y1="16" x2="42" y2="28" stroke="#F59E0B" strokeWidth="1.8"/>
+                <line x1="46" y1="16" x2="50" y2="28" stroke="#F59E0B" strokeWidth="1.8"/>
+                <ellipse cx="18" cy="30" rx="6" ry="2" stroke="#F59E0B" strokeWidth="2" fill="none"/>
+                <ellipse cx="46" cy="30" rx="6" ry="2" stroke="#F59E0B" strokeWidth="2" fill="none"/>
               </svg>
               <div>
                 <h3 className="text-2xl font-bold text-white">Vivek & Co.</h3>

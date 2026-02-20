@@ -25,14 +25,14 @@ const HowWeWork = () => {
   ];
 
   return (
-    <section id="how-we-work" className="py-16 md:py-24 bg-gradient-to-br from-slate-100 to-blue-50">
+    <section id="how-we-work" className="py-16 md:py-24 bg-white">
       <div className="w-full px-6 sm:px-8 md:px-12 lg:px-16 xl:px-24">
         
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-slate-900 mb-4">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-amber-950 mb-4">
             How We Work
           </h2>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+          <p className="text-lg text-amber-900 max-w-2xl mx-auto">
             A streamlined process to ensure thorough legal verification
           </p>
         </div>
@@ -42,19 +42,19 @@ const HowWeWork = () => {
             <div key={index} className="relative">
               {/* Vertical Line */}
               {index < steps.length - 1 && (
-                <div className="absolute left-8 top-20 w-0.5 h-full bg-gradient-to-b from-blue-600 to-amber-400 z-0"></div>
+                <div className="absolute left-8 top-20 w-0.5 h-full bg-gradient-to-b from-amber-500 to-yellow-600 z-0"></div>
               )}
               
               <div className="relative flex gap-6 mb-8">
                 {/* Step Number Circle */}
-                <div className="flex-shrink-0 w-16 h-16 bg-gradient-to-br from-blue-600 to-blue-800 rounded-full flex items-center justify-center shadow-lg z-10">
+                <div className="flex-shrink-0 w-16 h-16 bg-gradient-to-br from-amber-500 to-yellow-600 rounded-full flex items-center justify-center shadow-xl z-10 border-4 border-white">
                   <span className="text-white font-bold text-xl">{item.step}</span>
                 </div>
                 
                 {/* Content Card */}
-                <div className="flex-1 bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 mt-2">
-                  <h3 className="text-2xl font-bold text-slate-900 mb-3">{item.title}</h3>
-                  <p className="text-gray-600">{item.description}</p>
+                <div className="flex-1 bg-amber-50 p-6 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 mt-2 border-2 border-amber-300 hover:border-amber-500">
+                  <h3 className="text-2xl font-bold text-amber-950 mb-3">{item.title}</h3>
+                  <p className="text-amber-800">{item.description}</p>
                 </div>
               </div>
             </div>
