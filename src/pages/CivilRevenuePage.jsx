@@ -121,7 +121,7 @@ const CivilRevenuePage = () => {
       </div>
 
       {/* CTA Section */}
-      <div className="bg-gradient-to-r from-amber-500 to-orange-500 py-16">
+      <div className="bg-gradient-to-r from-yellow-500 to-yellow-600 py-16">
         <div className="container mx-auto px-6 text-center">
           <h2 className="text-3xl font-bold text-white mb-4">
             Resolve Your Dispute Today
