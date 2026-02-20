@@ -129,7 +129,7 @@ const MatrimonialPage = () => {
           <p className="text-white/90 text-lg mb-8">
             Get professional consultation for your matrimonial case
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
             <Link
               to="/contact"
               className="inline-flex items-center justify-center gap-2 bg-white text-amber-600 px-4 sm:px-8 py-2.5 sm:py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors text-sm sm:text-base"

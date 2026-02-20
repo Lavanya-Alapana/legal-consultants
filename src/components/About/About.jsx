@@ -26,7 +26,7 @@ const About = () => {
       <section className="py-16 bg-gray-50">
         <div className="container max-w-7xl mx-auto px-5">
           <div className="grid md:grid-cols-[280px_1fr] gap-10 items-start">
-            <div className="sticky top-5">
+            <div className="w-full max-w-[250px] mx-auto md:mx-0 relative md:sticky md:top-5">
               <img 
                 src="/vivek.jpg" 
                 alt="Legal consultation" 
