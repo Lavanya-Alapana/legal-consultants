@@ -12,6 +12,9 @@ const Career = () => {
         </div>
         <div className="container max-w-6xl mx-auto px-5 relative z-10">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">Join Our Team</h1>
+          <p className="text-lg md:text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
+            Build your legal career with Vivek & Co Legal Consultants. We offer opportunities for recent graduates, experienced lawyers, interns, and paralegals to grow in a dynamic and supportive environment.
+          </p>
         </div>
       </section>
 
