@@ -36,7 +36,7 @@ const ServicesPage = () => {
     {
       id: 'civil',
       title: 'Civil & Revenue Disputes',
-      description: 'Expert solutions for property and civil matters',
+      description: 'Professional solutions for property and civil matters',
       icon: '🏛️',
       image: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&h=600&fit=crop&q=80',
       items: [
@@ -89,7 +89,7 @@ const ServicesPage = () => {
               Comprehensive legal solutions with expertise in matrimonial, civil, revenue, and criminal law. We provide professional representation and consultation for all your legal needs.
             </p>
             <p className="text-lg text-gray-400 mb-8">
-              Our experienced team is dedicated to protecting your rights and achieving the best possible outcomes for your case.
+              Our experienced team is dedicated to protecting your rights and achieving favorable outcomes for your case.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-3">
@@ -123,7 +123,7 @@ const ServicesPage = () => {
             Our Practice Areas
           </h2>
           <p className="text-gray-600">
-            Expert legal representation across multiple domains
+            Professional legal representation across multiple domains
           </p>
         </div>
 
@@ -194,7 +194,7 @@ const ServicesPage = () => {
             Need Legal Assistance?
           </h2>
           <p className="text-white/90 text-lg mb-8">
-            Contact us today for expert legal consultation
+            Contact us today for professional legal consultation
           </p>
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
             <Link

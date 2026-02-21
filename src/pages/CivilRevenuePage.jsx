@@ -127,7 +127,7 @@ const CivilRevenuePage = () => {
             Resolve Your Dispute Today
           </h2>
           <p className="text-white/90 text-lg mb-8">
-            Get expert legal consultation for your civil or revenue matter
+            Get professional legal consultation for your civil or revenue matter
           </p>
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
             <Link

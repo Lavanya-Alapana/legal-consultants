@@ -15,7 +15,7 @@ const HowWeWork = () => {
     {
       step: "03",
       title: "Legal Verification",
-      description: "Our expert team conducts thorough title verification, encumbrance checks, and legal due diligence."
+      description: "Our team conducts thorough title verification, encumbrance checks, and legal due diligence."
     },
     {
       step: "04",

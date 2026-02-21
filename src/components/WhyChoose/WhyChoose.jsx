@@ -3,7 +3,7 @@ import React from 'react';
 const WhyChoose = () => {
   const reasons = [
     {
-      title: "Expert Legal Team",
+      title: "Experienced Legal Team",
       description: "Our team of experienced advocates specializes in property and land law with deep knowledge of Telangana regulations."
     },
     {

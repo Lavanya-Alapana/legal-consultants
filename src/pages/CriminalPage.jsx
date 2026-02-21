@@ -9,7 +9,7 @@ const CriminalPage = () => {
     },
     {
       title: '138 NI Act Cases',
-      description: 'Expert handling of cheque bounce and dishonor cases',
+      description: 'Professional handling of cheque bounce and dishonor cases',
       icon: '📝'
     },
     {
@@ -127,7 +127,7 @@ const CriminalPage = () => {
             Need Legal Defense?
           </h2>
           <p className="text-white/90 text-lg mb-8">
-            Contact us today for expert criminal law representation
+            Contact us today for professional criminal law representation
           </p>
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
             <Link

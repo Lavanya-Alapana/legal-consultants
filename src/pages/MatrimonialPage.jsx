@@ -4,7 +4,7 @@ const MatrimonialPage = () => {
   const services = [
     {
       title: 'Divorce Proceedings',
-      description: 'Expert legal representation for divorce cases with compassionate approach',
+      description: 'Legal representation for divorce cases with compassionate approach',
       icon: '⚖️'
     },
     {
@@ -14,7 +14,7 @@ const MatrimonialPage = () => {
     },
     {
       title: 'Child Custody Matters',
-      description: 'Protecting children\'s best interests in custody disputes',
+      description: 'Protecting children\'s interests in custody disputes',
       icon: '👨‍👩‍👧'
     },
     {
@@ -55,7 +55,7 @@ const MatrimonialPage = () => {
               Matrimonial Disputes
             </h1>
             <p className="text-xl text-gray-300 mb-4 leading-relaxed">
-              Family matters require sensitive handling and expert legal guidance. Our matrimonial law specialists provide compassionate support for divorce proceedings, child custody disputes, maintenance claims, and domestic violence cases.
+              Family matters require sensitive handling and professional legal guidance. Our matrimonial law specialists provide compassionate support for divorce proceedings, child custody disputes, maintenance claims, and domestic violence cases.
             </p>
             <p className="text-lg text-gray-400 mb-8">
               We understand the emotional challenges involved in family disputes. Our approach focuses on finding amicable solutions while protecting your rights and interests. With complete confidentiality and personalized attention, we guide you through every step of the legal process.

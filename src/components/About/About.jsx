@@ -13,10 +13,10 @@ const About = () => {
         <div className="container max-w-6xl mx-auto px-5 relative z-10">
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-5">Meet Vivek & Co Legal Consultants</h1>
           <p className="text-base md:text-lg leading-relaxed max-w-4xl mx-auto">
-            At Vivek & Co Legal Consultants, our team of top advocates in Hyderabad is committed to 
-            delivering expert legal support. With years of experience, a client-focused approach, and 
+            At Vivek & Co Legal Consultants, our team of advocates in Hyderabad is committed to 
+            delivering professional legal support. With years of experience, a client-focused approach, and 
             a proven track record of success, we are well-equipped to handle any legal challenge. 
-            Connect with Vivek & Co Legal Consultants for trusted legal advice from some of the best 
+            Connect with Vivek & Co Legal Consultants for trusted legal advice from experienced 
             lawyers in Hyderabad.
           </p>
         </div>
@@ -49,7 +49,7 @@ const About = () => {
                 I practice primarily at the Hyderabad District Court and have successfully handled numerous 
                 cases involving property disputes, registration matters, and civil litigation. Our approach 
                 is client-centric, ensuring that each person I represent receives personalized attention and 
-                expert legal counsel.
+                professional legal counsel.
               </p>
 
               <div className="mt-10 bg-white p-8 rounded-lg shadow-md">
